@@ -1,0 +1,391 @@
+
+body {
+    font-family: 'Nunito';
+}
+
+#sec-1 {
+    background-image: url("../irrigation.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+.logo {
+    padding-top: 30px;
+}
+
+.nav {
+    background-color: transparent;
+    padding: 20px;
+}
+
+.nav-item {
+    padding-right: 20px;
+    font-size: large;
+}
+
+.nav-link {
+    filter: brightness(500%);
+}
+
+.top-icon {
+    font-size: 1.73em;
+}
+
+.main-heading {
+    padding-top: 20%;
+    color:white;
+    padding-bottom: 50px;
+}
+
+.sec-1-content {
+    padding-right: 52%;
+    padding-left: 135px;
+}
+
+.get-started {
+    background-color: transparent;
+}
+
+.container-fluid {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+/* Icon Section */
+
+.icons {
+    /* padding: 20px; */
+    color: #070100;
+    margin-bottom: 1rem;
+}
+
+.icons:hover {
+    color: #0073ff;
+}
+
+/* Feature Section */
+
+.feature-heading {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.feature-box {
+    padding: 5%
+}
+
+#features {
+    position: relative;
+}
+
+.item {
+    text-decoration: none
+}
+
+#sec-3 {
+    background-image: url("../clouds-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-3-heading {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color:white;
+}
+
+.background-tint {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.background-tint-1 {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-blend-mode: multiply;
+}
+
+.background-tint-2 {
+    background-color: rgba(0, 0, 0, 0.695);
+    background-blend-mode: multiply;
+}
+
+#sec-4 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.sec-4-heading {
+    padding-bottom: 30px;
+}
+
+.predict-city {
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Table Section */
+
+.container-table100 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 33px 30px;
+}
+
+.wrap-table100 {
+    width: 500px;
+}
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+table * {
+    position: relative;
+}
+
+table td,table th {
+    padding-left: 8px;
+}
+
+table thead tr {
+    height: 60px;
+    background: #0d6efd;
+}
+
+.table-body {
+    text-align: center;
+}
+
+table tbody tr {
+    height: 50px;
+}
+
+table tbody tr:last-child {
+    border: 0
+}
+
+.table100-head th {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: unset;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f5f5f5
+}
+
+tbody tr {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    font-weight: unset
+}
+
+.column1 {
+    width: 260px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.column2 {
+    width: 160px;
+    text-align: center;
+}
+
+.column3 {
+    width: 245px;
+    text-align: center;
+    padding-right: 62px
+}
+
+.sec-4-content{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.graphs{
+    padding-top: 50px;
+}
+
+#tlineChart{
+    padding-left: 100px;
+    float: left;
+}
+
+#hlineChart{
+    padding-right: 100px;
+    float: right;
+}
+
+.sec-4-bottom{
+    padding-top: 500px;
+    text-align: center;
+}
+
+#sec-5 {
+    padding: 50px;
+    background-image: url("../grass-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#sec-5-heading {
+    padding: 30px;
+    padding-left: 80px;
+}
+
+.irrigation-content {
+    margin: 80px;
+    text-align: justify;
+    padding-bottom: 100px;
+}
+
+.irrigation-content h5 {
+    padding-bottom: 10px;
+}
+
+.drip-image {
+    float: left;
+    margin-right: 100px;
+    border-radius: 5%;
+    transition: transform .2s;
+}
+
+.drip-image:hover {
+    transform: scale(1.1);
+}
+
+.drip-irrigation {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.sprinkler-image {
+    float: right;
+    margin-left: 100px;
+    border-radius: 5%;
+    transition: transform .2s;
+}
+
+.sprinkler-image:hover {
+    transform: scale(1.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#sec-6 {
+    padding: 150px 100px;
+}
+
+#sec-6 h2 {
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+#sec-6 p {
+    font-size: 25px;
+}
+
+#sec-7 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #d25100;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-heading {
+    padding-right: 70%;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.card-item {
+    width: 300px;
+    padding: 15px;
+    margin: 1.5rem;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.image {
+    position: relative;
+    width: 100px;
+    bottom: 1.5rem;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 8px;
+    background-size: cover;
+    transition: all 0.2s linear;
+}
+
+.image:hover img {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.7);
+}
+
+.description ul {
+    display: flex;
+    list-style: none;
+}
+
+.description h2 {
+    font-size: 24px;
+}
+
+.role {
+    color: #e65b00;
+    font-size: 16px;
+}
+
+.description ul li {
+    font-size: 1.2rem;
+    padding: 10px 17px 5px 0;
+}
+
+.description ul li a {
+    text-decoration: none;
+    color: purple;
+}
+
+#footer{
+    color: #fff;
+    font-size:medium;
+    padding-top:130px;
+    text-align: center;
+}
