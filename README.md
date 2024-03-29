@@ -23,4 +23,14 @@ In Backend, we used Python framework called Flask to process the machine learnin
 openWeather API
 
 
+![image](https://github.com/Vishwaa-MS/Weather-Prediction/assets/93870138/fa3d851f-2359-4c6a-80f7-ee00221d95db)
+
+![image](https://github.com/Vishwaa-MS/Weather-Prediction/assets/93870138/b94325cb-c60b-43b5-9897-938eac153171)
+
+![image](https://github.com/Vishwaa-MS/Weather-Prediction/assets/93870138/084a7fd3-5960-4f27-95d3-0e27d054e165)
+
+
+
+
+
 
